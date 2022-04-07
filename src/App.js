@@ -4,6 +4,7 @@ import logo from "./assets/images/logo.svg";
 import "./styles/App.css";
 import Skeleton from "@mui/material/Skeleton";
 import SliderCustom from "./components/CommomComponent/Slider";
+import PasswordInput from "./components/CommomComponent/PasswordInput";
 
 function App() {
   const [valuetext, setValueText] = useState("");
@@ -16,6 +17,7 @@ function App() {
         <h2 style={{ color: "white" }}>{valuetext}</h2>
         <h2 style={{ color: "white" }}>Love you!</h2>
         <div className="w-1/3">
+          <PasswordInput />
           <SliderCustom valuetext={valuetext} setValueText={setValueText} />
         </div>
         <c variant="rectangular" width={210} height={118} />
