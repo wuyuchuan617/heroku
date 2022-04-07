@@ -14,6 +14,7 @@ function App() {
         <Skeleton variant="text" />
         <Skeleton variant="circular" width={40} height={40} />
         <h2 style={{ color: "white" }}>{valuetext}</h2>
+        <h2 style={{ color: "white" }}>Love you</h2>
         <div className="w-1/3">
           <SliderCustom valuetext={valuetext} setValueText={setValueText} />
         </div>
