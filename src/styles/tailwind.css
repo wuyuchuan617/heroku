@@ -1,0 +1,41 @@
+.css-1aznpnh-MuiSlider-root {
+  color: #5d5d5d !important;
+
+  height: 8px !important;
+  /* opacity: 0.3 !important; */
+}
+
+.css-1gv0vcd-MuiSlider-track {
+  border: none !important;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 92, 1, 1) 30%,
+    rgba(255, 210, 95, 1) 100%
+  ) !important;
+}
+
+.css-6cwnna-MuiSlider-mark {
+  width: 0px !important;
+  height: 0px !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb {
+  background: #1b1b1b !important;
+  border: 6px solid #ffd05d !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb::after {
+  background: #ffd05d !important;
+  opacity: 0;
+}
+
+.css-1eoe787-MuiSlider-markLabel {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  color: white !important;
+}
+.css-yafthl-MuiSlider-markLabel {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  color: white !important;
+}
