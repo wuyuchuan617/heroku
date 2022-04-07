@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/images/logo.svg";
+import "./styles/App.css";
+import Skeleton from "@mui/material/Skeleton";
 
 function App() {
   return (
@@ -7,8 +8,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to relodddddad.
+          Edit <code>src/App.js</code> and save to relodddddadwww.
         </p>
+        <Skeleton variant="text" />
+        <Skeleton variant="circular" width={40} height={40} />
+        <c variant="rectangular" width={210} height={118} />
         <a
           className="App-link"
           href="https://reactjs.org"
